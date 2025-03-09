@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/emintest", (req, res) => {
+app.get("/get-time", (req, res) => {
     const now = new Date();
     res.json({
         time: now.toISOString()
