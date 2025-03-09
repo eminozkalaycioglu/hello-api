@@ -8,7 +8,7 @@ app.get("/get-time", (req, res) => {
     });
 });
 
-app.get("/ci-test", (req, res) => {
+app.get("/ci-test-2", (req, res) => {
     const now = new Date();
     res.json({
         time: now.toISOString()
